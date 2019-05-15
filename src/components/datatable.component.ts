@@ -25,6 +25,9 @@ import { BehaviorSubject, Subscription } from 'rxjs';
 @Component({
   selector: 'ngx-datatable',
   template: `
+      <datatable-progress>
+      </datatable-progress>
+
     <div
       visibilityObserver
       (visible)="recalculate()">
