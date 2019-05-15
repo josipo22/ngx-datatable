@@ -10,9 +10,7 @@ import { MouseEvent } from '../../events';
 @Component({
   selector: 'datatable-body',
   template: `
-      <datatable-progress
-        *ngIf="loadingIndicator">
-      </datatable-progress>
+
 
     <datatable-selection
       #selector
